@@ -210,6 +210,7 @@ img {
 .home {
     height: calc(100vh - 3rem);
     row-gap: 1rem;
+    
 }
 
 .home__data {
@@ -219,7 +220,7 @@ img {
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
-    text-align: left;
+    text-align: center;
 }
 
 .home__title-color {
@@ -243,7 +244,6 @@ img {
 }
 
 .home__img {
-    position: absolute;
     right: 0;
     bottom: 0;
     width: 295px;
@@ -387,6 +387,10 @@ img {
      .home__img {
          width: 457px;
          bottom: 15%;
+     }
+
+     .home__img {
+         justify-self: right;
      }
 
     .home__social {
