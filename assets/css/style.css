@@ -124,6 +124,7 @@ img {
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
+   
 }
 
 .l-header {
@@ -217,27 +218,26 @@ img {
 
 .home__data {
     align-self: center;
-   
+    color: #1e212d;
 }
-
+ 
 
 
 .home__title {
     margin-top: 20px;
-    font-size: var(--big-font-size);
+    font-size: 60px;
     margin-bottom: var(--mb-5);
     text-align: center;
-    background-image: url(/assets/img/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
+   
    
 }
 
-.home__title-color {
-    color: var(--second-color);
+.home__title {
+    color: #1e212d;
 }
 
 .home__social {
@@ -369,12 +369,18 @@ img {
 
     .home {
         height: 100vh;
+      
    
     }
 
     .home__data {
         align-self: flex-end;
         background-size: cover;
+       
+    }
+
+    .home__title {
+
     }
 
      .home__img {
