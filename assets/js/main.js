@@ -58,15 +58,6 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal('.home__title',{}); 
-sr.reveal('.button',{delay: 200}); 
-sr.reveal('.home__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 400}); 
-
-sr.reveal('.section-title',{delay: 100});
-sr.reveal('.about__img',{}); 
-sr.reveal('.about__subtitle',{delay: 400}); 
-sr.reveal('.about__text',{delay: 400}); 
 
 
 
