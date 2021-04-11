@@ -270,7 +270,7 @@ a :hover {
 @media only screen and (max-width: 375px) {
     .hello {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 30px;
         text-align: center;
         letter-spacing: 1px;
     }
