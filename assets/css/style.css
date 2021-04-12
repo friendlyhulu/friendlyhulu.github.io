@@ -1,4 +1,3 @@
-
 html {
     scroll-behavior: smooth;
 }
@@ -26,6 +25,13 @@ div {
     font-weight: bolder;
     font-size: 100px;
 }
+ .dud {
+     color : #757575;
+ }
+ 
+ hr {
+      border-top: 1px solid red;
+ }
 
 h2,
 h3 {
@@ -156,7 +162,7 @@ a :hover {
 
 .videoapp video {
     width: 100%;
-
+   box-shadow: 5px 5px 10px black;
    
 }
 .a
