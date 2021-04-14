@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Parisienne&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,6 +27,8 @@ div {
     text-align: center ;
     font-weight: bolder;
     font-size: 100px;
+    font-family: 'Parisienne',cursive;
+    text-shadow: 0px 11px 10px rgba(44, 41, 44, 0.8);
 }
  .dud {
      color : #757575;
@@ -43,8 +48,8 @@ h2 {
 }
 
 h4 {
-    color: rgba(255, 255, 255, 0.842);
-    font-size: 20px;
+    color: white;
+    font-size: 30px;
     padding-bottom: 20px;
 }
 
@@ -144,6 +149,13 @@ a :hover {
 .row {
     margin-bottom: 20px;
 }
+
+a {
+    font-weight: 700;
+    color: white !important;
+    
+}
+
 .row img {
     align-items: flex-end;
 }
