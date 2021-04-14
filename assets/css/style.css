@@ -70,12 +70,6 @@ a :hover {
     color: white !important;
 }
 
-.fab {
-    transform: scale(2);
-    align-items: center;
-    color: #2b2e4a;
-    
-}
 .navbar-brand {
     font-weight: bold;
     color: white;
@@ -134,18 +128,15 @@ a :hover {
    
 }
 
-.container-bgFoot{
-    background-color: white;
-}
-
 .container-project2 {
-    background-color: #151515;
+    background-color: #F4F9F9;
 }
 
 .deskripsi a {
     padding-left: 800px;
-    marg-top : -800px;
+    margin-top : -800px;
 }
+
 .row {
     margin-bottom: 20px;
 }
@@ -174,18 +165,19 @@ a {
     display: inline;
 }
 
-.videoapp video {
-    width: 100%;
-   box-shadow: 5px 5px 10px black;
-   
-}
-.a
-.karya img {
- 
-    box-shadow: 5px 5px 10px black;
-    margin-top: -40px;
+.videoapp img {
+   width: 700px;
+   margin-left: 30px;
+   margin-top: 50px;
 }
 
+.musicplayer img {
+   width: 80%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+}
 
 .karya p {
     font-size: 30px;
@@ -199,7 +191,8 @@ a {
 }
 
 .deskripsivideo p { 
-    font-size: 30px;
+    font-size: 20px;
+    color: black;
     text-align: left;
 }
 
@@ -217,13 +210,10 @@ a {
 }
 
 .section__portfolio2 {
-    padding: 10px 0 100px 0;
+    padding: 30px 0 100px 0;
 }
 
-.section__footer {
-    padding: 30px 0px 30px 0;
-    position: relative;
-}
+
 
 .section__footer a {
     padding: 20px 20px;
@@ -237,6 +227,18 @@ a {
     bottom: 0;
     background-color: #1b1d21;
     color: #fff;
+}
+
+.deskripsivideo h6 {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.karya h6 {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -287,7 +289,17 @@ a {
             padding: 50px 30px 50px 30px;
         }
 
+        .videoapp img {
+            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 50px;
+        }
 
+        .karya img {
+            width: auto;
+        }
 }
 @media only screen and (max-width: 960px) {
     .hello {
@@ -400,6 +412,18 @@ a {
            padding: 50px 30px 50px 30px;
        }
 
+         .videoapp img {
+             width: 80%;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             padding-bottom: 50px;
+         }
+
+         .karya img {
+             width: auto;
+         }
+
 }
 
 
@@ -427,6 +451,10 @@ a {
     .karya p {
         font-size: 14px;
     }
+    
+    .karya img {
+        width: auto;
+    }
 
     .mx-auto {
         margin-top: 20px;
@@ -437,6 +465,14 @@ a {
     }
     .section__about {
         padding: 50px 30px 50px 30px;
+    }
+
+    .videoapp img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
     }
 }
 
