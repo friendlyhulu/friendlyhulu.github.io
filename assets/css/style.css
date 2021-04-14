@@ -21,7 +21,7 @@ div {
 
 .hello {
     color: white;
-    text-align: center;
+    text-align: center ;
     font-weight: bolder;
     font-size: 100px;
 }
@@ -113,6 +113,7 @@ a :hover {
 
 .container-bg {
     background-color: #151515;
+    padding: 20px 0 100px 0;
 }
 
 .container-bg1 {
@@ -124,7 +125,8 @@ a :hover {
 }
 
 .container-bgAbout {
-    background-color: #2b2e4a;
+    background-color: #151515;
+   
 }
 
 .container-bgFoot{
@@ -190,7 +192,8 @@ a :hover {
 }
 
 .section__about {
-    padding: 100px 0 100px 0;
+    padding: 100px 70px 100px 70px;
+    background-color: #2b2e4a;
 }
 
 .section__about h2 {
@@ -240,6 +243,10 @@ a :hover {
           margin-top: 20px;
       }
 
+      .section__about {
+          padding: 50px 30px 50px 30px;
+      }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -262,6 +269,10 @@ a :hover {
        }
         .row img {
             margin-top: 125px;
+        }
+
+        .section__about {
+            padding: 50px 30px 50px 30px;
         }
 
 
@@ -294,6 +305,10 @@ a :hover {
           margin-top: 125px;
       }
 
+      .section__about {
+          padding: 50px 30px 50px 30px;
+      }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -312,6 +327,10 @@ a :hover {
           margin-top: 20px;
       }
 
+      .section__about {
+          padding: 50px 30px 50px 30px;
+      }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -328,6 +347,10 @@ a :hover {
 
       .mx-auto {
           margin-top: 20px;
+      }
+
+      .section__about {
+          padding: 50px 30px 50px 30px;
       }
 
 }
@@ -358,6 +381,10 @@ a :hover {
 
        .mx-auto {
            margin-top: 20px;
+       }
+
+       .section__about {
+           padding: 50px 30px 50px 30px;
        }
 
 }
@@ -394,6 +421,9 @@ a :hover {
     
     .deskripsivideo p {
         font-size: 14px;
+    }
+    .section__about {
+        padding: 50px 30px 50px 30px;
     }
 }
 
