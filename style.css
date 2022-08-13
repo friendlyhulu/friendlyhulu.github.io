@@ -115,6 +115,16 @@
     background-color: #555;
   }
 
+
+  .highlight {
+    display: inline;
+    padding: .25em 0;
+    background: #FFC107;
+    color: #ffffff;
+   
+  }
+
+
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .contact {
