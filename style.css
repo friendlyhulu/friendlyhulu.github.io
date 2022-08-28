@@ -24,43 +24,54 @@
 
 #casestudy {
     padding-bottom: 10px;
-
 } 
 
 .pengenalan {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 32px;
     font-family: 'Poppins', sans-serif;
 }
 
 .role {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 32px;
     font-family: 'Poppins', sans-serif;
 }
 
 .masalah {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.solusi {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.goal {
+    font-size: 20px;
+    line-height: 32px;
     font-family: 'Poppins', sans-serif;
 }
 
 .metode {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 17px;
+    line-height: 32px;
     font-family: 'Poppins', sans-serif;
 }
 
 
 .riset {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 32px;
     font-family: 'Poppins', sans-serif;
 }
 
 .desain {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 17px;
+    line-height: 32px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -84,8 +95,14 @@
 }
 
 .uji {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 17px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.result{
+    font-size: 23px;
+    line-height: 32px;
     font-family: 'Poppins', sans-serif;
 }
 
