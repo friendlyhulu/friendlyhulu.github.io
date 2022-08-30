@@ -13,7 +13,6 @@
     </head>
     <body>
     <main>
-      <!--Start Navigation-->
         <div class="container py-4">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
@@ -36,21 +35,12 @@
                   </div>
                 </div>
               </nav>
-            <!--End navigation-->
-
-            <!--Button back to top-->
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top &#x2191</button>
-
-
-            <!--Content-->
-            
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top &#x2191</button>         
             <div class="p-0 mb-4 rounded-3">
             <div class="container-fluid py-5">
-              <img id="dashboard" src="/img/dashboard.png" class="img-fluid" alt="Responsive image">  
-              
+              <img id="dashboard" src="/img/dashboard.png" class="img-fluid" alt="Responsive image">      
               <br>
               <br>
-              <!--START PENGENALAN-->
               <div class="container">
                 <div class="row">
                   <div class="col">
@@ -69,9 +59,6 @@
                   <br>
                   </div>
                 </div>
-              <!--END PENGENALAN-->
- 
-              <!--START PERMASALAHAN-->
               <p class="fs-4" style="font-weight: bolder;">Problem</p>
               <p class="masalah">Berdasarkan hasil wawancara serta observasi yang telah dilakukan kepada wali kelas serta guru mata pelajaran didapati bahwa seringkali <b> lambatnya koordinasi keduanya ketika melakukan evaluasi  </b> terhadap perkembangan nilai akademik dari siswa siswinya.
                 <br>
@@ -82,7 +69,6 @@
                   <li> Terdapat beberapa guru yang masih menggunakan media tertulis seperti buku untuk menyimpan nilai-nilai sementara siswa-siswinya, sehingga membutuhkan waktu yang lebih lama ketika akan melakukan rekap atau dibagikan kepada wali kelas.</p> </li>
                 </ul>
                 <br>
-              <!--END PERMASALAHANM-->
               <hr>
               <div class="container">
                 <div class="row">
@@ -102,9 +88,7 @@
               </p>
                   </div>
                 </div>
-              
                 <hr>
-              <!--Design Process-->
               <p class="fs-4" style="font-weight: bolder; ">Design process</p>
               <p class="masalah">Dalam perancangan dashboard ini, saya menggunakan User Centered Design sebagai dasar saya dalam melakukan proses desain. Tujuannya adalah agar fitur, informasi dan alur sistem yang ada dapat sesuai dengan keinginan dan kebutuhan pengguna.</p>
               <p class="riset" style="color: blueviolet;">
@@ -120,7 +104,6 @@
               </p>
               <img src="/img/riset.png" class="img-fluid" alt="Responsive image">
               <p class="solusi">Pada bagian terakhir yaitu Fokus fitur dan Informasi, merupakan bagian yang terpenting yang akan ada pada dashboard ini nantinya. Ke-6 hal tersebut di dapatkan dari  hasil proses pemilihan yang mana yang akan menjadi prioritas pengguna berdasarkan masalah di hadapi, kebutuhan serta dari persetujuan pengguna.</p>
-              <br><br>
               <p class="riset" style="color: blueviolet;">
                 <b>Design solution</b></p>
                 <a style="font-weight: bolder;">USERFLOW</a>
@@ -162,14 +145,14 @@
                         <li>	Saya membutuhkan bantuan dari orang lain atau teknisi dalam
                           menggunakan sistem ini</li>
                         <li>	Saya merasa fitur-fitur sistem ini berjalan dengan semestinya</li>
+                        <li>	Saya merasa ada banyak hal yang tidak konsisten (tidak serasi pada sistem
+                          ini)</li>
                         </ul>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="">
-                        <ul class="uji">
-                          <li>	Saya merasa ada banyak hal yang tidak konsisten (tidak serasi pada sistem
-                            ini)</li>
+                        <ul class="uji">        
                           <li>	Saya merasa orang lain akan memahami cara menggunakan sistem ini
                             dengan cepat</li>
                           <li>	Saya merasa sistem ini membingungkan</li>
@@ -187,11 +170,9 @@
                     </p>
                     <img id="casestudy" src="/img/susgrafik.png" class="img-fluid" alt="Responsive image">
                     <figcaption style="text-align: center; font-style: italic;">Jawaban responden terhadap pertanyaan SUS</figcaption>
-                    <!--END PENGUJIAN-->
                     <br><br>
                     <br><br>
               </p>
-                <!--END DESAIN-->
               <br>
               
               <hr>
@@ -214,20 +195,14 @@
               <p class="text-center text-muted" style="padding-top: 30px;">Terimakasih sudah menyempatkan waktunya untuk membaca, <br>jika ada saran atau kritik, jangan ragu untuk mampir via email atau instagram✌️</p>
          </div>  
           </div>
-
           </div>
-        </div>  
-
-        
+        </div>        
       </main>
 
-        <!--Js back to top-->
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <script>
-          //Get the button
           var mybutton = document.getElementById("myBtn");
-          
-          // When the user scrolls down 20px from the top of the document, show the button
           window.onscroll = function() {scrollFunction()};
           
           function scrollFunction() {
@@ -237,7 +212,6 @@
               mybutton.style.display = "none";
             }
           }
-          // When the user clicks on the button, scroll to the top of the document
           function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
