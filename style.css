@@ -5,6 +5,7 @@
 .navbar-brand {
     font-weight: bolder;
 }
+
 .navbar-nav {
     margin-left: auto;
 }
@@ -19,12 +20,12 @@
     margin-top: -60px !important;
     padding-right: 0px;
     margin-left: 200px;
-    position:relative
+    position: relative
 }
 
 #casestudy {
     padding-bottom: 10px;
-} 
+}
 
 .pengenalan {
     font-size: 20px;
@@ -86,11 +87,11 @@
     justify-content: center;
     align-items: center;
 
-    transition-duration: 0,8s;
+    transition-duration: 0, 8s;
 }
 
-.contact:hover{
-    background-color: black ;
+.contact:hover {
+    background-color: black;
     color: white;
 }
 
@@ -100,7 +101,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.result{
+.result {
     font-size: 23px;
     line-height: 32px;
     font-family: 'Poppins', sans-serif;
@@ -120,7 +121,7 @@
     font-size: 14px;
     border: none;
     outline: none;
-    background-color:  #53D86A;
+    background-color: #53D86A;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -131,14 +132,13 @@
 
 #myBtn:hover {
     background-color: #555;
-  }
+}
 
 
-  .highlight {
+.highlight {
     display: inline;
     padding: .25em 0;
     background: #FFC107;
     color: #ffffff;
-   
-  }
 
+}
