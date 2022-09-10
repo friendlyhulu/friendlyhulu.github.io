@@ -1,5 +1,6 @@
-.container {
-    font-family: 'Poppins', sans-serif;
+.content {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 80px 20px 80px;
 }
 
 .navbar-brand {
@@ -14,66 +15,73 @@
     font-weight: 200;
 }
 
-#profil {
-    max-width: 30%;
-    display: block;
-    margin-top: -60px !important;
-    padding-right: 0px;
-    margin-left: 200px;
-    position: relative
+.card {
+    border: none;
 }
 
-#casestudy {
-    padding-bottom: 10px;
+#casestudy:hover {
+    transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transition: all 300ms;
+    transition: 300ms ease-in-out;
+
+}
+
+hr {
+    width: 98%;
+    margin: auto;
 }
 
 .pengenalan {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .role {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .masalah {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .solusi {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .goal {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .metode {
     font-size: 17px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 .riset {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .desain {
     font-size: 17px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -98,17 +106,17 @@
 .uji {
     font-size: 17px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .result {
     font-size: 23px;
     line-height: 32px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -126,7 +134,7 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
 
