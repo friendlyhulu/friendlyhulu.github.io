@@ -1,6 +1,7 @@
 .content {
     font-family: 'Montserrat', sans-serif;
     margin: 20px 80px 20px 80px;
+
 }
 
 .navbar-brand {
@@ -19,7 +20,9 @@
     border: none;
 }
 
-
+#casestudy {
+    transition: transform 1s;
+}
 
 #casestudy:hover {
     transform: scale(1.05);
@@ -151,6 +154,10 @@ hr {
     background: #FFC107;
     color: #ffffff;
 
+}
+
+.container-lg {
+    width: 50%;
 }
 
 /* Extra small devices (phones, 600px and down) */
