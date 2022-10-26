@@ -4,6 +4,13 @@
     
 }
 
+.Portfolio {
+    margin: 20px 100px 20px 100px;
+}
+
+.intro{
+    margin: 20px 100px 20px 100px;
+}
 .navbar-brand {
     font-weight: bolder;
 }
