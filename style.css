@@ -17,10 +17,11 @@
 
 .navbar-nav {
     margin-left: auto;
+    
 }
 
 .nav-item {
-    font-weight: 200;
+    font-weight: 800;
 }
 
 .card {
@@ -169,6 +170,14 @@ hr {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .Portfolio {
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .intro{
+        margin: 0px 0px 0px 0px;
+    }
+
     .content {
         font-family: 'Montserrat', sans-serif;
         margin: 10px 10px 10px 10px;
@@ -185,7 +194,6 @@ hr {
     }
 }
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 
@@ -194,6 +202,18 @@ hr {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+    .Portfolio {
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .intro{
+        margin: 0px 0px 0px 0px;
+    }
+
+    .content {
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px 10px 10px 10px;
+    }
     #about {
         display: grid;
         grid-template-columns: 1fr;
@@ -202,10 +222,36 @@ hr {
     #about-section {
         margin-top: 20px;
     }
-}
+
+    .intro h5 {
+        font-size: 15px;
+    }
+
+    .intro h1 {
+        font-size: 20px;
+    }
+
+    .intro h3 {
+        font-size: 15px;
+    }
+
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
+    .Portfolio {
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .intro{
+        margin: 0px 0px 0px 0px;
+    }
+
+    .content {
+        font-family: 'Montserrat', sans-serif;
+        margin: 10px 10px 10px 10px;
+    }
+
     #about {
         display: grid;
         grid-template-columns: 1fr;
