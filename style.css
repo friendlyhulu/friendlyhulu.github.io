@@ -11,6 +11,8 @@
 .intro{
     margin: 20px 100px 20px 100px;
 }
+
+
 .navbar-brand {
     font-weight: bolder;
 }
@@ -40,7 +42,6 @@
     -ms-transform: scale(1.05);
     -webkit-transition: all 300ms;
     transition: 300ms ease-in-out;
-
 }
 
 hr {
@@ -192,7 +193,15 @@ hr {
     #about-section {
         margin-top: 20px;
     }
+
+    .container-sm {
+        width: 100% !important;
+    }
+    .container-sm img {
+        width: 100%;
+    }
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
@@ -235,6 +244,14 @@ hr {
         font-size: 15px;
     }
 
+    .container-sm {
+        width: 100% !important;
+    }
+    .container-sm img {
+        width: 100%;
+    }
+
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -302,4 +319,3 @@ hr {
 #myDiv {
     display: none;
     }
-}

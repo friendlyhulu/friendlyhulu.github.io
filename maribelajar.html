@@ -74,8 +74,18 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-
     </script>
+    <script>
+        var myVar;
+        function myFunction() {
+          myVar = setTimeout(showPage, 600);
+        }
+    
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+      </script>
 </body>
 
 </html>
