@@ -18,7 +18,7 @@
 <body onload="myFunction()" style="margin:0;">
     <div id="loader"></div>
     <main>
-        <div id="myDiv" class="animate-bottom" style="display: none;">
+        <div id="myDiv">
             <div class="content">
                 <nav class="navbar navbar-expand-lg ">
                     <div class="container-fluid">
@@ -31,7 +31,7 @@
                         <div class="collapse navbar-collapse navbar-right" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="index.html">Works</a>
+                                    <a   class="nav-link active" href="index.html">Works</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="another.html">Another Works</a>
@@ -46,29 +46,14 @@
                 <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top &#x2191</button>
                 <br>
                 <br>
-                <div class="container-sm">
+                <div class="container-sm" style="width: 60%;">
                     <img src="/img/Astra Thumbnail.png" class="img-fluid" alt="Responsive image">
                 </div> 
-                <div class="container-sm" style="width: 85%;">
+                <div class="container-sm" style="width: 60%;">
                     <img src="/img/AstraContent.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
     </main>
-
-
-    <script>
-        var myVar;
-
-        function myFunction() {
-            myVar = setTimeout(showPage, 300);
-        }
-
-        function showPage() {
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("myDiv").style.display = "block";
-        }
-    </script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
