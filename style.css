@@ -1,5 +1,11 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #F1F1F1;
+}
+
+
 .content {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     margin: 20px 80px 20px 80px;
     
 }
@@ -10,11 +16,58 @@
 
 .intro{
     margin: 20px 100px 20px 100px;
+    background: #FFFFFF;
+    border-radius: 24px;
 }
 
 
+.intro h1{
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.intro h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #5B5B5B;
+}
+
+#profil img {
+    width: 328px;
+    height: 328px;
+    margin-left: 200px;
+}
+
+* {
+    box-sizing: border-box;
+} 
+  /* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 340px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 55%;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .navbar-brand {
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .navbar-nav {
@@ -23,7 +76,7 @@
 }
 
 .nav-item {
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .card {
@@ -32,6 +85,17 @@
 
 #casestudy {
     transition: transform 1s;
+}
+
+
+.Portfolio h4 {
+font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color: #5B5B5B;
+
 }
 
 #casestudy:hover {
@@ -52,50 +116,50 @@ hr {
 .pengenalan {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .role {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .masalah {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .solusi {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .goal {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .metode {
     font-size: 17px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
 .riset {
     font-size: 20px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .desain {
     font-size: 17px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -120,17 +184,17 @@ hr {
 .uji {
     font-size: 17px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .result {
     font-size: 23px;
     line-height: 32px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .btn {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -148,7 +212,7 @@ hr {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -173,6 +237,7 @@ hr {
 @media only screen and (max-width: 600px) {
     .Portfolio {
         margin: 0px 0px 0px 0px;
+        margin-top: -50px !important;
     }
     
     .intro{
@@ -200,6 +265,10 @@ hr {
     .container-sm img {
         width: 100%;
     }
+ 
+    .intro {
+        display: none;
+    }
 }
 
 
@@ -220,7 +289,7 @@ hr {
     }
 
     .content {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'DM Sans', sans-serif;
         margin: 10px 10px 10px 10px;
     }
     #about {
@@ -251,6 +320,42 @@ hr {
         width: 100%;
     }
 
+    .intro h1{
+        font-weight: bold;
+        padding-top: 40px;
+        margin-left: 70px;
+    }
+    
+    .intro h3 {
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        color: #5B5B5B;
+        margin-left: 70px;
+    }
+
+    #profil img {
+        width: 328px;
+        height: 328px;
+        margin-left: 10px !important;
+    }
+    .column {
+        float: left;
+        padding: 10px;
+        height: 340px; /* Should be removed. Only for demonstration */
+    }
+    
+    .left {
+        width: 55% !important;
+    }
+    
+    .right {
+        width: 55% !important;
+        margin-left: -130px;
+    }
+
 }
 
 
@@ -265,7 +370,7 @@ hr {
     }
 
     .content {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'DM Sans', sans-serif;
         margin: 10px 10px 10px 10px;
     }
 
@@ -277,6 +382,42 @@ hr {
     #about-section {
         margin-top: 20px;
     }
+
+    .intro h1{
+        font-weight: bold;
+        padding-top: 40px;
+        margin-left: 70px;
+    }
+    
+    .intro h3 {
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 31px;
+        color: #5B5B5B;
+        margin-left: 70px;
+    }
+
+    #profil img {
+        width: 328px;
+        height: 328px;
+        margin-left: 80px;
+    }
+    .column {
+        float: left;
+        padding: 10px;
+        height: 340px; /* Should be removed. Only for demonstration */
+    }
+    
+    .left {
+        width: 35%;
+    }
+    
+    .right {
+        width: 55%;
+    }
+    
 }
 
 /*animationl*/
