@@ -269,6 +269,10 @@ hr {
     .intro {
         display: none;
     }
+
+    .resume {
+       height: 400px;
+    }
 }
 
 
@@ -356,6 +360,9 @@ hr {
         margin-left: -130px;
     }
 
+    .resume {
+        height: 550px;
+     }
 }
 
 
