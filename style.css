@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   background-color: white;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .nav-item {
-    font-weight: bold ;
+    font-weight:500 ;
 }
 
 
@@ -88,8 +88,23 @@ body {
     -webkit-overflow-scrolling: touch;
   }
 
-  /*Breakpoint Responsive*/
+  #img-profil {
+    box-sizing: border-box;
+    width: 293px;
+    top: 172px;
+    border: 8px solid #000000;
+    border-radius: 6px;
+  }
 
+  .rectangle {
+      width: 293px;
+      height: 357px;
+      top: 160px;
+      background: #34A853;
+      border-radius: 12px;
+  }
+
+  /*Breakpoint Responsive*/
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .content {
@@ -100,26 +115,5 @@ body {
     font-size: 20px;
   }
 
-
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
