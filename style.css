@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Work Sans', sans-serif;
-  background-color: white;
+  background-color: #edeef0;
 }
 
 .content {
@@ -28,92 +28,98 @@ body {
     font-weight:500 ;
 }
 
-
-/*Profil card section*/
-.card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+.list-inline a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
 }
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+#profil-card {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
+#profil-card h5 {
+  color: white;
+}
 
-  .b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
 
-  .b-example-vr {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 100vh;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2%);
   }
-
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
 
-  .nav-scroller {
-    position: relative;
-    z-index: 2;
-    height: 2.75rem;
-    overflow-y: hidden;
-  }
+.content {
+  animation: fadeIn 1.5s ease-in-out;
+}
 
-  .nav-scroller .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
+img {
+transition: transform 0.3s ease-in-out; 
+}
 
-  #img-profil {
-    box-sizing: border-box;
-    width: 293px;
-    top: 172px;
-    border: 8px solid #000000;
-    border-radius: 6px;
-  }
+img:hover {
+transform: scale(1.07);
+}
 
-  .rectangle {
-      width: 293px;
-      height: 357px;
-      top: 160px;
-      background: #34A853;
-      border-radius: 12px;
-  }
-
-  /*Breakpoint Responsive*/
-  /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .content {
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
+  }
+  
+  .p-5 {
+    padding: 1rem !important;
   }
 
-  #profil {
+  .display-5 {
+    font-size: 18px;
+  }
+
+  .fs-4 {
+    font-size : 16px !important;
+  }
+  
+  h3 {
     font-size: 20px;
   }
 
+  a {
+    font-size: 14px !important;
+  }
+
+  .card-body {
+    padding-bottom: 30px !important;
+  }
+
+  #tag {
+    font-size: 14px !important;
+  }
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
