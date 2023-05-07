@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="image" property="og:image" content="/img/thumbnailweb.png">
+    <meta property="og:description" content='Friendly Portfolio'/>
+    <meta property="og:type" content="website"/>
+    <link rel="icon" href="img/F.png" type="image/icon type"> 
+    <title>Friendly Hulu - UI/UX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/621faa2454.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <style>  
+    body {
+        background-color:  #edeef0;
+    }
+
+    img:hover {
+    transform: scale(1.0);
+    }
+    .container {
+    padding: 20px 200px 20px 200px;
+    }
+    
+    @media (max-width: 600px) {
+      .content {
+        margin: 0px;
+      } 
+      
+      .container {
+        padding: 10px;
+      } 
+
+      .img-fluid{
+        max-width: 100%;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      h4 {
+        font-size: 16px;
+      }
+
+      h5 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="content">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html" style="color: 16213E;">FRIENDLY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-right" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home.</a>
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link" href="./about.html" target="">About.</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <div class="container py-5">
+    <h1 class="text-center" style="color: #0C977E;"><b>IMPROVEMENT CHECKOUT PAGE NIAGAHOSTER</b></h1>
+    <br>
+    <img src="./img/niagahoster.png" class="img-fluid">
+
+    <div id="project-brief" style="padding-top: 50px;">
+      <h4 style="font-weight: 600;">Project Brief</h4>
+      <p>Niagahoster merupakan provider penyedia layanan hosting dan domain di Indonesia. Dengan memberikan jaminan kualitas terbaik serta harga termurah di kelasnya.
+        <br><br>
+        Meskipun begitu, menurut laporan yang didapatkan bahwa terjadi penurunan terhadap persentase pengguna yang menyelesaikan pembelian layanan hosting di halaman checkout Niagahoster.
+        <br><br>
+        Oleh karena itu, yang menjadi tujuan dari project ini adalah menemukan solusi dari terjadinya penurunan persentase checkout serta mengatasi permasalahan yang dihadapi oleh pengguna.</p>
+    </div>
+
+    <div id="problem" style="padding-top: 50px;">
+      <h4 style="font-weight: 600;">Problem</h4>
+      <p>Berdasarkan hasil riset, ditemukan bahwa ada beberapa pengguna yang kebingungan saat memilih opsi layanan di halaman checkout. Para pengguna tersebut membutuhkan waktu yang lama untuk memutuskan pilihan mereka. Dan setelah ditelusuri lebih dalam lagi, ditemukan akar dari permasalahan tersebut adalah karena pengguna dihadapkan dengan terlalu banyak pilihan dan tidak memahami definisi dari setiap pilihan yang ditawarkan.</p>
+    </div>
+    <br><br>
+    <h2 class="text-center" style="color: #0C977E; font-weight: 800;">VALIDATING THE PROBLEMS</h2>
+
+    <div id="validate-problem" style="padding-top: 10px;">
+      <p>Untuk mem-validasi masalah dan hasil riset yang didapatkan, saya kemudian melakukan observasi sekaligus melakukan evaluasi terhadap halaman checkout page niagahoster - <a style="text-decoration: underline;">https://www.niagahoster.co.id/orderhosting/26</a>. Dan dari proses yang saya lakukan, ada beberapa hal yang menjadi temuan, antara lain : </p>
+      <img src="./img/risetniagahoster.png" class="img-fluid">
+    </div>
+    <br><br><br><br>
+    <h2 class="text-center" style="color: #0C977E; font-weight: 800;">DESIGN PROCESS</h2>
+    <br>
+    <div id="how-might" style="padding-top: 10px;">
+      <h4 style="font-weight: 600;" >How-Might We</h4>
+      <p>Untuk menentukan fokus permasalahan yang ingin diselesaikan, saya kemudian menggunakan teknik yang cukup sering digunakan, yaitu How-Might We. Berdasarkan dari riset serta hasil validasi yang telah dapatkan, maka yang menjadi fokus dalam projek ini adalah :</p>
+      <br>
+      <h4 class="text-center" style="font-style: italic;">How might we simplify the checkout page options to make it easier for users to understand, while also providing customer support options</h4> 
+      <p class="text-center" style="font-size: 14px;">Bagaimana jika kita menyederhanakan opsi di halaman checkout sehingga lebih mudah dipahami oleh pengguna dan juga menyediakan opsi dukungan pelanggan</p>
+    </div>
+    <br><br>
+    <div id="solution" style="padding-top: 10px;">
+      <h4 style="font-weight: 600;">Solution</h4>
+      <p>Sesuai dengan pertanyaan yang telah di tentukan pada How-Might We, terdapat beberapa solusi yang ditemukan setelah melakukan proses brainstorming. Antara lain sebagai berikut :</p>
+      <img src="./img/solution-niagahoster.png" class="img-fluid">
+    </div>
+
+    <div id="wireframe" style="padding-top: 10px;">
+      <h4 style="font-weight: 600;" >Wireframe</h4>
+      <img src="./img/wireframe-niaga.png" class="img-fluid">
+    </div>
+    <br><br>
+    <div id="final-ui style="padding-top: 10px;">
+      <h4 style="font-weight: 600;" >Final UI</h4>
+      <img src="./img/finalui-niaga.png" class="img-fluid">
+    </div>
+    <br>
+    <div id="testing" style="padding-top: 20px;">
+      <h4 style="font-weight: 600;" >Testing</h4>
+      <p>Proses yang terakhir adalah pengujian usability testing. Pengujian ini sendiri bertujuan untuk mengetahui apakah solusi desain yang telah dibuat telah sesuai atau belum. Untuk itu, saya menggunakan SUS (System Usability Scale) untuk melakukan pengujian ini.</p>
+      <img src="./img/sus.png" class="img-fluid"><br><br>
+      <p>Dari pengelohan data yang dilakukan didapatkan bahwa skor SUS adalah 85, yang dimana artinya secara usability dapat diterima atau layak.</p>
+    </div>
+
+    <div id="kesimpulan" style="padding-top: 20px;">
+      <h4 style="font-weight: 600;" >Kesimpulan</h4>
+      <p>Berdasarkan pengujian yang telah dilakukan pada solusi desain, didapatkan bahwa desain dapat digunakan dengan mudah serta pengguna juga merasa lebih nyaman dengan tampilan informasi yang disediakan. 
+        <br><br>
+        Dari projek ini, saya belajar banyak hal, dimulai dari mengutamakan solusi dari sisi pengguna, menentukan prioritas solusi yang ditemukan pada saat brainstorming agar tetap sesuai dengan tujuan yang ingin dicapai serta melatih kemampuan komunikasi kepada pengguna khususnya ketika melakukan pengujian.</p>
+    </div>
+  </div>
+	<div class="container" style="margin-top : 50px;">
+  <hr><br>
+        <div class="container text-center">
+            <h5><b>Terimakasih sudah mampir 🙏</b></h5>
+            <p style="font-size :small">Jika tertarik untuk berkolaborasi maupun berdiskusi tentang berbagai kesempatan kerja, jangan ragu untuk <br> menghubungi melalui <b>friendllyhulu@gmail.com</b></p>
+            <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/friendlyhulu/" target="_blank" >LinkedIn  |</a></li>
+            <li class="list-inline-item"><a href="https://www.behance.net/friendlyhulu" target="_blank" >Behance  |</a></li>
+            <li class="list-inline-item"><a href="https://dribbble.com/friendllyhulu" target="_blank" >Dribbble</a></li>
+            </ul>
+            <br>
+            <p id="tag" >© Friendly Portfolio. Created with passion and hope</p>       
+	</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
