@@ -31,7 +31,7 @@ body {
 .list-inline a {
   text-decoration: none;
   color: green;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #profil-card {
