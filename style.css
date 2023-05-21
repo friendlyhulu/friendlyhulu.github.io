@@ -31,7 +31,7 @@ body {
 .list-inline a {
   text-decoration: none;
   color: green;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #profil-card {
@@ -42,6 +42,9 @@ body {
   color: white;
 }
 
+.card-title {
+  font-weight: 600;
+}
 
 @keyframes fadeIn {
   from {
