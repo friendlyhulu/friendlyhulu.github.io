@@ -2,7 +2,13 @@
 
 body {
   font-family: 'Work Sans', sans-serif;
-  background-color: #edeef0;
+  background-color: white;
+}
+
+.linked a {
+    text-decoration: none; 
+    font-weight: 600; 
+    color: #7755CC;
 }
 
 .content {
@@ -33,13 +39,13 @@ body {
   color: green;
   font-weight: 600;
 }
-
+/*
 #profil-card {
-  background-color: #73A9AD;
-}
+  background-color: #73A9AD; 
+}*/
 
 #profil-card h5 {
-  color: white;
+  color: black;
 }
 
 .card-title {
